@@ -72,7 +72,8 @@
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     recipeListController.managedObjectContext = self.managedObjectContext;
-    [window addSubview:tabBarController.view];
+    //[window addSubview:tabBarController.view];
+    [window setRootViewController:tabBarController];
     [window makeKeyAndVisible];
 }
 

@@ -51,13 +51,13 @@
 		53CE97A011C6EA1000594C94 /* choosePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979C11C6EA1000594C94 /* choosePhoto.png */; };
 		53CE97A111C6EA1000594C94 /* convert.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979D11C6EA1000594C94 /* convert.png */; };
 		53CE97A211C6EA1000594C94 /* fork.png in Resources */ = {isa = PBXBuildFile; fileRef = 53CE979E11C6EA1000594C94 /* fork.png */; };
-		AA24F90B184959700091D577 /* CBLIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = AA24F909184959700091D577 /* CBLIncrementalStore.m */; };
-		AA24F90C184959700091D577 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA24F90A184959700091D577 /* CouchbaseLite.framework */; };
 		AA90792118452E44002F2588 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792018452E44002F2588 /* CFNetwork.framework */; };
 		AA90792318452E4C002F2588 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792218452E4C002F2588 /* Security.framework */; };
 		AA90792518452E54002F2588 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792418452E54002F2588 /* SystemConfiguration.framework */; };
-		AA90792718452E5C002F2588 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792618452E5C002F2588 /* libsqlite3.dylib */; };
-		AA90792918452E62002F2588 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA90792818452E62002F2588 /* libz.dylib */; };
+		E4752E001D0BF9350036A412 /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4752DFF1D0BF9350036A412 /* CouchbaseLite.framework */; };
+		E4752E031D0BF9510036A412 /* CBLIncrementalStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E4752E021D0BF9510036A412 /* CBLIncrementalStore.m */; };
+		E4752E051D0BF9D60036A412 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4752E041D0BF9D60036A412 /* libz.tbd */; };
+		E4752E071D0BF9EE0036A412 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E4752E061D0BF9EE0036A412 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,14 +128,14 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		966D0AFA0DF4CB4D0054F11F /* IngredientDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IngredientDetailViewController.h; sourceTree = "<group>"; };
 		966D0AFB0DF4CB4D0054F11F /* IngredientDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IngredientDetailViewController.m; sourceTree = "<group>"; };
-		AA24F908184959700091D577 /* CBLIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLIncrementalStore.h; sourceTree = "<group>"; };
-		AA24F909184959700091D577 /* CBLIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLIncrementalStore.m; sourceTree = "<group>"; };
-		AA24F90A184959700091D577 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
 		AA90792018452E44002F2588 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		AA90792218452E4C002F2588 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		AA90792418452E54002F2588 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		AA90792618452E5C002F2588 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		AA90792818452E62002F2588 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E4752DFF1D0BF9350036A412 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		E4752E011D0BF9510036A412 /* CBLIncrementalStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLIncrementalStore.h; sourceTree = "<group>"; };
+		E4752E021D0BF9510036A412 /* CBLIncrementalStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLIncrementalStore.m; sourceTree = "<group>"; };
+		E4752E041D0BF9D60036A412 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		E4752E061D0BF9EE0036A412 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,15 +143,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA24F90C184959700091D577 /* CouchbaseLite.framework in Frameworks */,
-				AA90792918452E62002F2588 /* libz.dylib in Frameworks */,
-				AA90792718452E5C002F2588 /* libsqlite3.dylib in Frameworks */,
+				E4752E071D0BF9EE0036A412 /* libsqlite3.tbd in Frameworks */,
+				E4752E051D0BF9D60036A412 /* libz.tbd in Frameworks */,
 				AA90792518452E54002F2588 /* SystemConfiguration.framework in Frameworks */,
 				AA90792318452E4C002F2588 /* Security.framework in Frameworks */,
 				AA90792118452E44002F2588 /* CFNetwork.framework in Frameworks */,
 				28B35EC40FC5DCD100ED0C40 /* CoreData.framework in Frameworks */,
 				28B35EC60FC5DCD100ED0C40 /* CoreGraphics.framework in Frameworks */,
 				28B35EC80FC5DCD100ED0C40 /* Foundation.framework in Frameworks */,
+				E4752E001D0BF9350036A412 /* CouchbaseLite.framework in Frameworks */,
 				28B35FB70FC5E10C00ED0C40 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,9 +291,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA90792A18452E70002F2588 /* Extra */,
-				AA90792818452E62002F2588 /* libz.dylib */,
-				AA90792618452E5C002F2588 /* libsqlite3.dylib */,
+				E4752E061D0BF9EE0036A412 /* libsqlite3.tbd */,
+				E4752E041D0BF9D60036A412 /* libz.tbd */,
+				E4752E011D0BF9510036A412 /* CBLIncrementalStore.h */,
+				E4752E021D0BF9510036A412 /* CBLIncrementalStore.m */,
+				E4752DFF1D0BF9350036A412 /* CouchbaseLite.framework */,
 				AA90792418452E54002F2588 /* SystemConfiguration.framework */,
 				AA90792218452E4C002F2588 /* Security.framework */,
 				AA90792018452E44002F2588 /* CFNetwork.framework */,
@@ -318,16 +320,6 @@
 				53CE979911C6EA0600594C94 /* TemperatureCell.xib */,
 			);
 			name = "Table Cells";
-			sourceTree = "<group>";
-		};
-		AA90792A18452E70002F2588 /* Extra */ = {
-			isa = PBXGroup;
-			children = (
-				AA24F908184959700091D577 /* CBLIncrementalStore.h */,
-				AA24F909184959700091D577 /* CBLIncrementalStore.m */,
-				AA24F90A184959700091D577 /* CouchbaseLite.framework */,
-			);
-			path = Extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,7 +411,7 @@
 				28FCBF0C0DE6A6C6007A15C7 /* RecipeListTableViewController.m in Sources */,
 				283EA3640DEE388300DBD352 /* RecipeTableViewCell.m in Sources */,
 				184FEA3D0DEF6D4D00887625 /* UnitConverterTableViewController.m in Sources */,
-				AA24F90B184959700091D577 /* CBLIncrementalStore.m in Sources */,
+				E4752E031D0BF9510036A412 /* CBLIncrementalStore.m in Sources */,
 				184FEA3E0DEF6D4D00887625 /* WeightConverterViewController.m in Sources */,
 				184FEA3F0DEF6D4D00887625 /* TemperatureConverterViewController.m in Sources */,
 				28963B450DFC7F5F005CC955 /* TemperatureCell.m in Sources */,
@@ -516,6 +508,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Extra",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -537,6 +530,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/Extra",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Recipes_Prefix.pch;
